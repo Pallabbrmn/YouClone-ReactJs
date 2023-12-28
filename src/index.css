@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Rubik+Bubbles&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.search-bar {
+  outline: none;
+  border: none;
+  font-size: 15px;
+  flex: 1;
+  /* background-color: yellow; */
+}
+
+@media only screen and (max-width: 767px) {
+  /* Apply styles for mobile devices */
+  .search-bar {
+    max-width: 100px;
+  }
+}
+
+.youclone {
+  color: white;
+  font-family: "Rubik Bubbles";
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn {
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  padding: 7px 15px;
+  margin: 5px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  background-color: #fc1503 !important;
+  color: white !important;
+}
+
+.category-btn:hover span {
+  color: white !important;
+}
+
+.react-player {
+  height: 70vh !important;
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .react-player {
+    max-height: 33vh;
+  }
+}
+
+/* .thumbnail {
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+  scale: 1.2;
+} */
